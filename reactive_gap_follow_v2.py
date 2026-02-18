@@ -18,8 +18,8 @@ class ReactiveFollowGap:
         
         # Paramètres de navigation - Boostés pour la course
         self.gap_threshold = 0.3
-        self.max_lookahead = 1.5
-        self.max_speed = 1.5 # Augmenté
+        self.max_lookahead = 4.5
+        self.max_speed = 5.5 # Augmenté
         self.car_width = 0.55 # Légèrement augmenté pour plus de marge de sécurité
 
     def preprocess_lidar(self, ranges):
